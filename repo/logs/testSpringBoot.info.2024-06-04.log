@@ -1,0 +1,17 @@
+[2024-06-04 11:51:14.014] 772  [main] INFO  com.geosys.BIMApplication - Starting BIMApplication on RAY-LAPTOP with PID 12940 (C:\Users\rayjx\OneDrive\Documents\abc\repo\target\classes started by ray in C:\Users\rayjx\OneDrive\Documents\abc\repo) 
+[2024-06-04 11:51:14.014] 775  [main] INFO  com.geosys.BIMApplication - The following profiles are active: windows 
+[2024-06-04 11:51:16.016] 2331 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8094 (http) 
+[2024-06-04 11:51:16.016] 2347 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat] 
+[2024-06-04 11:51:16.016] 2348 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30] 
+[2024-06-04 11:51:16.016] 2474 [main] INFO  o.a.c.c.C.[.[.[/micro/bim] - Initializing Spring embedded WebApplicationContext 
+[2024-06-04 11:51:16.016] 2474 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1649 ms 
+[2024-06-04 11:51:16.016] 2627 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.context.MessageSource com.geosys.common.utils.Messages.messageSource 
+[2024-06-04 11:51:16.016] 2627 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static org.springframework.context.MessageSource com.geosys.common.utils.Messages.messageSource 
+[2024-06-04 11:51:16.016] 2768 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource 
+[2024-06-04 11:51:17.017] 3613 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited 
+[2024-06-04 11:51:18.018] 4586 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+[2024-06-04 11:51:18.018] 4656 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index 
+[2024-06-04 11:51:18.018] 4802 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8094 (http) with context path '/micro/bim' 
+[2024-06-04 11:51:18.018] 4806 [main] INFO  com.geosys.BIMApplication - Started BIMApplication in 4.609 seconds (JVM running for 5.12) 
+[2024-06-04 11:53:48.048] 154664 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+[2024-06-04 11:53:48.048] 154669 [SpringContextShutdownHook] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed 
